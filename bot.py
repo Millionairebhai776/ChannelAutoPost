@@ -40,8 +40,8 @@ async def _(event):
     await event.reply(
         f"Hi `{event.sender.first_name}`!\n\nI am a channel auto-post bot!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[⚡𝐎𝐖𝐍𝐄𝐑⚡](https://t.me/FILMWORLDOFFICIA)..",
         buttons=[
-            Button.url("Repo", url="https://github.com/xditya/ChannelAutoForwarder"),
-            Button.url("Dev", url="https://t.me/its_xditya"),
+            Button.url("🚀Repo🚀", url="https://t.me/kurachkanjiedukkatte/8"),
+            Button.url("⭕Dev⭕", url="https://t.me/FILMWORLDOFFICIA"),
         ],
         link_preview=False,
     )
@@ -50,7 +50,7 @@ async def _(event):
 @datgbot.on(events.NewMessage(pattern="/help"))
 async def helpp(event):
     await event.reply(
-        "**Help**\n\nThis bot will send all new posts in one channel to the other channel. (without forwarded tag)!\nIt can be used only in two channels at a time, so kindly deploy your own bot from [here](https://github.com/xditya/ChannelAutoForwarder).\n\nAdd me to both the channels and make me an admin in both, and all new messages would be autoposted on the linked channel!!\n\nLiked the bot? Drop a ♥ to @FILMWORLDOFFICIA :)"
+        "**Help**\n\nThis bot will send all new posts in one channel to the other channel. (without forwarded tag)!\nIt can be used only in two channels at a time, so kindly deploy your own bot from [here🤕](https://t.me/kurachkanjiedukkatte/8).\n\nAdd me to both the channels and make me an admin in both, and all new messages would be autoposted on the linked channel!!\n\nLiked the bot? Drop a ♥ to @FILMWORLDOFFICIA :)"
     )
 
 
